@@ -1,0 +1,30 @@
+
+#contenedor{ margin-left: 0;margin-top:0; display:block; overflow:scroll;
+     background-color: blue; width: 100vw; height: 100vh;
+
+}
+#listaLayout{flex:1; display: inline-flex ; overflow:auto  ; background-color: gray; margin: 6vh;
+     padding: 3vh; 
+   height: 82vh}
+#listaLayout h1{font-size: 3vh; color:darkgreen; font-family: 'Protest Guerrilla';}
+
+#cajita1  { overflow: auto; font-size:14px; background-color:lightgreen; 
+    height: 74vh;width: 60vw; padding: 5vh; margin:0
+    ; border:solid green ; border-radius: 4vh; border-width:0.4vh
+    
+
+
+}
+#cajita2  {overflow: auto; display: inline-block;font-size:14px; background-color:rgb(242, 246, 233) ;
+    height: 74vh; width: 20vw;padding:5vh; border: solid green ;border-width:0.4vh; border-radius: 4vh
+
+}
+
+#ingreso{height: 50vh; overflow:scroll; width: 50vw;
+     background-color: black; color: whitesmoke; font-size: 26px;}
+
+     #salida{height: 50vh; overflow:scroll; width: 20vw; 
+
+     background-color: black; color: whitesmoke; font-size: 26px; }
+#codificar{margin-left: 10vh; margin-top: 1vh; height: 10vh; width: 30vh; font-size: 4vh; 
+    background-color:rgb(196, 255, 233);  font-family:'Protest Guerrilla', sans-serif; font-weight: bold;}     
