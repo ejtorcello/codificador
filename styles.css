@@ -27,4 +27,8 @@
 
      background-color: black; color: whitesmoke; font-size: 26px; }
 #codificar{margin-left: 10vh; margin-top: 1vh; height: 10vh; width: 30vh; font-size: 4vh; 
-    background-color:rgb(196, 255, 233);  font-family:'Protest Guerrilla', sans-serif; font-weight: bold;}     
+    background-color:rgb(196, 255, 233);  font-family:'Protest Guerrilla', sans-serif; font-weight: bold;} 
+    #decodificar{margin-left: 10vh; margin-top: 1vh; height: 10vh; width: 30vh; font-size: 4vh; 
+        background-color:rgb(196, 255, 233);  font-family:'Protest Guerrilla', sans-serif; font-weight: bold;} 
+        #copiar{margin-left: 4vh; margin-top: 1vh; height: 10vh; width: 30vh; font-size: 4vh; 
+            background-color:rgb(196, 255, 233);  font-family:'Protest Guerrilla', sans-serif; font-weight: bold;}       

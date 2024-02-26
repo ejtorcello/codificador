@@ -25,6 +25,8 @@ var cadena=''
                 
         
             cadena = cadena.slice(0,i)+letra+cadena.slice(i+1);
+            
+            
         
 
         }
@@ -34,9 +36,19 @@ var cadena=''
             letra = cadena[i]
             console.log('letra= ',letra)
             switch (letra){
-                case 'a': insertar('AAA',i)
+                case 'a': insertar('ai',i) ; i=i+1;
+                break
+                case 'e': insertar('enter',i);i=i+4;
+                break
+                case 'i': insertar('imes',i);i=i+3;
+                break
+                case 'o': insertar('ober',i);i=i+3;
+                break
+                case 'u': insertar('ufat',i);i=i+3;
+                break
+                
             break}
-           
+           ``
 
         }
         
