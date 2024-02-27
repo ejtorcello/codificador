@@ -14,8 +14,8 @@ var cadena=''
 
     
     }
-    let letra=''
-    function codificar(letra){
+    
+    function codificar(){
         
         console.log('codificar(), cadena= ',cadena)
         
@@ -33,7 +33,7 @@ var cadena=''
         
         for (let i=0; i<cadena.length; i++){
             console.log('valor i= ', i)
-            letra = cadena[i]
+            let letra = cadena[i]
             console.log('letra= ',letra)
             switch (letra){
                 case 'a': insertar('ai',i) ; i=i+1;
@@ -54,10 +54,21 @@ var cadena=''
         
         
     }
+    function decodificar(){
+        cadena = ent.value
+        cadena = cadena.replace(/ai/g ,'a')
+                    .replace(/enter/g ,'e')
+                    .replace(/imes/g ,'i')
+                    .replace(/ober/g ,'o')
+                    .replace(/ufat/g ,'u')
+         sal.value=cadena           
 
+    }
 
 botonCodificar = document.getElementById("codificar")
 botonCodificar.addEventListener("click", almacenar)
+botonDecodificar = document.getElementById("decodificar")
+botonDecodificar.addEventListener("click", decodificar)
 
 
 
