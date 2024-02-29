@@ -18,6 +18,7 @@ var cadena=''
     function codificar(){
         
         console.log('codificar(), cadena= ',cadena)
+        if(cadena==""){imagen.style.opacity=1}
         
         
         //funcion anidada para insertar caracteres
@@ -69,6 +70,9 @@ botonCodificar = document.getElementById("codificar")
 botonCodificar.addEventListener("click", almacenar)
 botonDecodificar = document.getElementById("decodificar")
 botonDecodificar.addEventListener("click", decodificar)
+imagen = document.getElementById("robot")
+ent.addEventListener("input", function(){imagen.style.opacity=0})
+
 
 
 

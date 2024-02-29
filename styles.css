@@ -23,10 +23,11 @@
 #ingreso{height: 50vh; overflow:scroll; width: 50vw;
      background-color: black; color: whitesmoke; font-size: 26px;}
 
-     #salida{height: 50vh; overflow:scroll; width: 20vw; 
+     #salida{height: 50vh; overflow:scroll; width: 20vw; position:absolute;
 
-     background-color: black; color: whitesmoke; font-size: 26px; }
-#codificar{margin-left: 10vh; margin-top: 1vh; height: 10vh; width: 30vh; font-size: 4vh; 
+     background-color: black; color: whitesmoke; font-size: 27px; }
+     #robot{position: absolute; z-index: 2; size: 45vh; width:16vw; margin-left:1vw;margin-top:1vh ;opacity:0}
+#codificar{margin-left:10vh; margin-top: 1vh; height: 10vh; width: 30vh; font-size: 4vh; 
     background-color:rgb(196, 255, 233);  font-family:'Protest Guerrilla', sans-serif; font-weight: bold;} 
     #decodificar{margin-left: 10vh; margin-top: 1vh; height: 10vh; width: 30vh; font-size: 4vh; 
         background-color:rgb(196, 255, 233);  font-family:'Protest Guerrilla', sans-serif; font-weight: bold;} 
