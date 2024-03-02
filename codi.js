@@ -56,7 +56,9 @@ var cadena=''
         
     }
     function decodificar(){
+
         cadena = ent.value
+        if(cadena==""){imagen.style.opacity=1}
         cadena = cadena.replace(/ai/g ,'a')
                     .replace(/enter/g ,'e')
                     .replace(/imes/g ,'i')
