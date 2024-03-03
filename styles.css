@@ -13,7 +13,7 @@
     flex: 1;
     display: inline-flex;
     overflow: auto;
-    background-color: gray;
+    background-color: blue;
     margin: 6vh;
     padding: 3vh;
     height: 82vh
@@ -28,16 +28,22 @@
 #cajita1 {
     overflow: auto;
     font-size: 14px;
-    background-color: lightgreen;
+    color: rgb(241, 247, 241);
     height: 74vh;
     width: 60vw;
     padding: 5vh;
     margin: 0;
     border: solid green;
     border-radius: 4vh;
-    border-width: 0.4vh
+    border-width: 0.4vh;
+    background-image: url('images/camo.jpg');
+    background-size: cover;
+    background-position: center
 }
-
+#cajita1 h3{
+    color: yellow; 
+    font-size:2vh;
+}
 #cajita2 {
     overflow: auto;
     display: inline-block;
@@ -48,7 +54,8 @@
     padding: 5vh;
     border: solid green;
     border-width: 0.4vh;
-    border-radius: 4vh
+    border-radius: 4vh;
+    background-image: url('images/yagui.gif');
 }
 
 #ingreso {

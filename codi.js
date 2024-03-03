@@ -74,6 +74,8 @@ botonDecodificar = document.getElementById("decodificar")
 botonDecodificar.addEventListener("click", decodificar)
 imagen = document.getElementById("robot")
 ent.addEventListener("input", function(){imagen.style.opacity=0})
+botonCopiar = document.getElementById("copiar")
+botonCopiar.addEventListener("click", function(){sal.select();document.execCommand('copy')} )
 
 
 
