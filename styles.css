@@ -56,6 +56,8 @@
     border-width: 0.4vh;
     border-radius: 4vh;
     background-image: url('images/yagui.gif');
+    background-size: cover;
+    background-position: center
 }
 
 #ingreso {
